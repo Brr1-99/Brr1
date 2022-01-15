@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
+import Navbar from '../components/navbar'
 
 export default function Home() {
     return (
@@ -9,7 +9,7 @@ export default function Home() {
                 <meta name='description' content='My own personal website' />
                 <link rel='icon' href='/favicon.ico' />
             </Head>
-		</div>
-            
+			<Navbar></Navbar>
+		</div>            
     )
 }
