@@ -1,4 +1,3 @@
-
 const Navbar = () => {
 	return (
 		<nav class='bg-zinc-700 sticky z-10 backdrop-blur-xl'>
