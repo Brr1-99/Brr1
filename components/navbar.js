@@ -1,6 +1,6 @@
 const Navbar = () => {
 	return (
-		<nav class='bg-zinc-700 sticky z-10 backdrop-blur-xl'>
+		<nav class='bg-zinc-800 sticky z-10 backdrop-blur-xl'>
 			<div class='mx-auto px-2 sm:px-5 lg:px-7'>
 				<div class='items-center flex relative justify-between h-16'>
 						<div class='flex justify-start'>
