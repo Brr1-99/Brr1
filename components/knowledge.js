@@ -7,7 +7,7 @@ const skills = () => {
 		<div class='container mx-auto text-white mt-40'>
 			<h1 class='text-2xl text-center'> SKILLS </h1>
 			<br/>
-			<h2 class='text-xl text-center'> Knowledge is power 🧠, and I try to get stronger 🦸🏻‍♂️ by trying new things everyday.</h2>
+			<h2 class='text-xl text-center'> Knowledge is power 🧠, and I try to get stronger 🦸🏻 by trying new things everyday.</h2>
 			<br/>
 			<div class='grid sm:grid-cols-1 xl:grid-cols-2 gap-4'>
 				<div class='rounded bg-zinc-700 shadow-zinc-500'>
