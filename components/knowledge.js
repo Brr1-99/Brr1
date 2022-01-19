@@ -26,7 +26,7 @@ const skills = () => {
 							Settled / Mastered
 						</h3>
 						<hr/>
-						<div class='grid sm:grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-4'>
+						<div class='grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-4'>
 							<div class='p-4 flex flex-col items-center justify-center transform motion-safe:hover:scale-110'>
 								<img {...Python} class='opacity-90'></img>
 								<div>
@@ -70,7 +70,7 @@ const skills = () => {
 							Loading . . . 
 						</h3>
 						<hr/>
-						<div class='grid sm:grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-4'>
+						<div class='grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-4'>
 							<div class='p-4 flex flex-col items-center justify-center transform motion-safe:hover:scale-110'>
 								<img {...JS} class='opacity-90'></img>
 								<div>
