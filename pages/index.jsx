@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
 import Greet from '../components/greetings'
+import Skills from '../components/knowledge'
 
 export default function Home() {
     return (
@@ -11,11 +12,16 @@ export default function Home() {
                 <meta name='description' content='My own personal website' />
                 <link rel='icon' href='/favicon.ico' />
             </Head>
-			<Navbar/>
-			<hr></hr>
-			<Greet/>
-			<hr></hr>
-			<Footer/>
+			<body class='bg-zinc-800'>
+				<Navbar/>
+				<hr></hr>
+				<Greet/>
+				<hr></hr>
+				<Skills/>
+				<br/>
+				<hr></hr>
+				<Footer/>
+			</body>
 		</>            
     )
 }
