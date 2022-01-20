@@ -1,14 +1,14 @@
 const Footer = () => {
 	return (
-		<div class="flex justify-center items-center h-16 bg-zinc-800 ">
-			<div class="container mx-auto flex justify-around">
+		<div className="flex justify-center items-center h-16 bg-zinc-800 ">
+			<div className="container mx-auto flex justify-around text-white">
 				<div>
-					<span class="text-white">
+					<span>
 						Website developed by me ! © 2022
 					</span>
 				</div>
 				<div>
-					<span class="text-white"> Made up with JS and effort 💪🏼 ! </span>
+					<span> Made up with JS and effort 💪🏼 ! </span>
 				</div>
 			</div>
 		</div>

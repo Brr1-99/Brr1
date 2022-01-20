@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
 import Greet from '../components/greetings'
-import Skills from '../components/knowledge'
+import Skills from '../components/skills'
 
 export default function Home() {
     return (
@@ -12,7 +12,7 @@ export default function Home() {
                 <meta name='description' content='My own personal website' />
                 <link rel='icon' href='/favicon.ico' />
             </Head>
-			<body class='bg-zinc-800'>
+			<div className='bg-zinc-800'>
 				<Navbar/>
 				<hr></hr>
 				<Greet/>
@@ -21,7 +21,7 @@ export default function Home() {
 				<br/>
 				<hr></hr>
 				<Footer/>
-			</body>
+			</div>
 		</>            
     )
 }
