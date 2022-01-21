@@ -12,16 +12,16 @@ export default function Home() {
                 <meta name='description' content='My own personal website' />
                 <link rel='icon' href='/favicon.ico' />
             </Head>
-			<div className='bg-zinc-800'>
-				<Navbar/>
-				<hr></hr>
-				<Greet/>
-				<hr></hr>
-				<Skills/>
-				<br/>
-				<hr></hr>
-				<Footer/>
-			</div>
-		</>            
+            <div className='bg-zinc-800'>
+                <Navbar />
+                <hr></hr>
+                <Greet />
+                <hr></hr>
+                <Skills />
+                <br />
+                <hr></hr>
+                <Footer />
+            </div>
+        </>
     )
 }
