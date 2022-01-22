@@ -17,7 +17,7 @@ export default function Navbar() {
         },
         {
             name: 'About',
-            url: '/about',
+            url: '/#about',
             current: '/about',
         },
     ]

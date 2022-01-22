@@ -19,9 +19,12 @@ export default function Home() {
                 <Greet />
                 <hr></hr>
                 <Skills />
+				<hr></hr>
                 <br />
-                <hr></hr>
+				<br />
+				<section className='about' id='about'>
 				<About/>
+				</section>
 				<hr></hr>
                 <Footer />
             </div>
