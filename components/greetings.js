@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const Greet = () => {
     return (
-        <div className='min-h-screen flex flex-col justify-center items-center bg-zinc-800'>
+        <div className='min-h-screen flex flex-col justify-center items-center'>
             <div className='grid md:grid-cols-3 gap-3'>
                 <div className='flex justify-start items-center px-4 md:block opacity-90'>
                     <Image src={ImageLeft} alt='' />
