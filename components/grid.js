@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Hexastats from '../images/hexastats.png'
+import Focus from '../images/focus.svg'
 
 const projects = [
 	{
@@ -46,7 +47,10 @@ const Grid = () => {
             <h2 className='text-xl text-center'> A little preview of what I have done for the last year.</h2>
             <br />
 			<hr className='border-0 rounded bg-white h-1 mx-auto w-6/8'/>
-			<div className='grid md:grid-cols-2 gap-4 mt-6'>
+			<div className='grid md:grid-cols-2 gap-6 mt-6'>
+				<div className='flex justify-start items-center'>
+					<Image src={Focus} alt='focus'/>
+				</div>
 				{projects.map((project, idx) => (
 					<div key={idx} className='rounded bg-zinc-800 flex flex-col items-center justify-center'>
 						<div className='p-4 '>
@@ -62,7 +66,7 @@ const Grid = () => {
 						<a href={'https://github.com/Brr1-99/' + project.url } className='transform motion-safe:hover:scale-95 scale-90'>
 							<Image src={project.image} alt='Hexastats' fill='layout'/>
 						</a>	
-						<div className='mb-10'>
+						<div className='mb-4'>
 							<h2 className='text-lg'> {project.desc} </h2>
 							<h4 className='text-center'> Last modified on {project.date} .</h4>
 						</div>	
