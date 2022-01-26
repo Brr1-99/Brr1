@@ -15,11 +15,6 @@ export default function Navbar() {
             url: '/projects',
             current: '/projects',
         },
-        {
-            name: 'About',
-            url: '/#about',
-            current: '/about',
-        },
     ]
 
     return (

@@ -14,12 +14,17 @@ const About = () => {
 						<b> electrical and industrial engineer </b>
 						named Bruno.
 					</p>
+					<br/>
 					<p>
-						Recently , I have decided to take a dive into the <i> mysteriuos 👻 </i>, yet <span className='text-xl'> astonishing 🎇 </span> world of programming.
+						Native of Galicia ( Spain ) , I have been always interested in concepts such as numbers and algorithms 🧮 .
+						That is why I enrolled myself on the engineer degree I mentioned earlier.
 					</p>
 					<br/>
 					<p>
-
+						Recently , I have decided to take a dive into the <i> mysteriuos </i> 👻, yet <span className='text-xl'> astonishing 🎇 </span> world of programming.
+					</p>
+					<p>
+						What I enjoy working most with is <span className='bg-cyan-500 p-1 rounded'>Python</span> . It was my first language and it brings a lot of memories.
 					</p>
                 </div>
 				<div className='flex justify-center items-center px-10 mx-auto opacity-90 w-4/5 md:w-full'>

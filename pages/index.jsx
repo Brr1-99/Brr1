@@ -16,17 +16,11 @@ export default function Home() {
             </Head>
             <div className='bg-zinc-900'>
                 <Navbar />
-                <hr></hr>
                 <Greet />
-                <hr></hr>
                 <Skills />
-				<hr></hr>
-                <br />
-				<br />
 				<section className='about' id='about'>
 				<About/>
 				</section>
-				<hr></hr>
 				<Contact/>
                 <Footer />
             </div>
