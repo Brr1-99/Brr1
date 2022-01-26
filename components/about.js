@@ -4,7 +4,7 @@ import Work from '../images/work.svg'
 
 const About = () => {
 	return (
-		<div className='container mx-auto text-white mt-80'>
+		<div className='container mx-auto text-white mt-40'>
             <h1 className='text-2xl text-center my-5'> About me </h1>
 			<hr className='border-0 rounded bg-cyan-500 h-1 mx-auto w-4/5'/>
             <div className='grid lg:grid-cols-3 mt-5'>
