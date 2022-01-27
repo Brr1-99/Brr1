@@ -28,7 +28,7 @@ const About = () => {
 					</p>
 					<br/>
 					<p>
-						Nowadays, apart from improving the core structure of my code , studying <span className='bg-cyan-500 p-1 rounded'> JavaScript </span> is what eats most of my hours. Nevertheless, I am sure that it will be worth the try. 
+						Nowadays, apart from improving the core structure of my code , studying <span className='bg-cyan-500 p-1 rounded'> JavaScript</span> is what eats most of my hours. Nevertheless, I am sure that it will be worth the try. 
 					</p>
                 </div>
 				<div className='flex justify-center items-center px-10 mx-auto opacity-90 w-4/5 md:w-full'>

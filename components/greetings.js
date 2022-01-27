@@ -10,8 +10,11 @@ const Greet = () => {
                 <div className='flex justify-start items-center px-4 md:block opacity-90'>
                     <Image src={ImageLeft} alt='' />
                 </div>
-                <div className='flex justify-center items-center'>
-                    <h1 className='text-white'> Hola buenas tardes</h1>
+                <div className='text-center text-white text-3xl md:text-4xl'>
+                    <p> Welcome all,</p>
+					<p> to my personal website.</p>
+					<p> Hope you enjoy! </p> 
+					<i className='bi bi-hand-thumbs-up'></i>
                 </div>
                 <div className='flex justify-end items-center px-12 md:block opacity-90'>
                     <Image src={ImageRight} alt='' />

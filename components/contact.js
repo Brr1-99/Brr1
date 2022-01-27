@@ -6,11 +6,11 @@ const Contact = () => {
 			<p className="text-center mt-5"> Are you interested on what I do? Then write me an email with the details! 📨</p>
 			<form action="https://getform.io/f/dd635be6-854b-4774-ab3d-7f7c8542c678" method="POST">
 				<div className="grid md:grid-cols-2 max-w-4xl mx-auto">
-					<input name='name' placeholder="Full Name" className=" p-3 m-3 border shadow rounded bg-zinc-700">
+					<input name='name' placeholder="Full Name" className=" p-3 m-3 border shadow rounded bg-zinc-700" required>
 					</input>
-					<input name='email' placeholder="personal_email@example.com" className=" p-3 m-3 border shadow rounded bg-zinc-700">
+					<input name='email' placeholder="personal_email@example.com" className=" p-3 m-3 border shadow rounded bg-zinc-700" required>
 					</input>
-					<textarea name='email_content' placeholder='Your email should be written here.' className="md:col-span-2 p-3 m-3 border shadow rounded bg-zinc-700">
+					<textarea name='email_content' placeholder='Your email should be written here.' className="md:col-span-2 p-3 m-3 border shadow rounded bg-zinc-700" required>
 					</textarea>
 				</div>
 				<div className="flex justify-center">

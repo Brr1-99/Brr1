@@ -31,7 +31,7 @@ const Skills = () => {
         </div>
     )
     return (
-        <div className='container mx-auto text-white mt-40'>
+        <div className='container mx-auto text-white mt-30'>
             <h1 className='text-2xl text-center text-rose-300'> SKILLS </h1>
             <br />
             <h2 className='text-xl text-center'> Knowledge is power 🧠, and I try to get stronger 🦸🏻 by trying new things everyday.</h2>

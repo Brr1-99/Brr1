@@ -1,7 +1,5 @@
 import { Disclosure } from '@headlessui/react'
 import Link from 'next/link'
-import Image from 'next/image'
-import {Github} from '../images/icons'
 
 export default function Navbar() {
     const navigate = [
@@ -60,9 +58,6 @@ export default function Navbar() {
                             </div>
 
                             <div className='flex-1 flex items-center justify-center sm:items-stretch sm:justify-start'>
-                                <div className='flex-shrink-0 flex items-center'>
-                                    <h1 className='text-2xl ml-2 tracking-wider text-white'>Holiwi</h1>
-                                </div>
                                 <div className='hidden sm:block sm:ml-6'>
                                     <div className='flex space-x-4'>
                                         {navigate.map((page, idx) => (
@@ -72,7 +67,7 @@ export default function Navbar() {
                                                     className={
                                                         'px-3 py-2 rounded-md text-sm font-bold tracking-widest ' +
                                                         (page.name == 'Home'
-                                                            ? 'bg-lime-400 text-white hover:bg-cyan-400 '
+                                                            ? 'bg-lime-400 text-white hover:bg-cyan-500 '
                                                             : 'hover:bg-zinc-700 text-white')
                                                     }
                                                     aria-current={page.current ? 'page' : undefined}
@@ -84,12 +79,22 @@ export default function Navbar() {
                                     </div>
                                 </div>
                             </div>
-                            <div className='absolute right-0 flex'>
-                                <div className='flex items-center justify-center ml-10 hidden rounded-full md:block hover:bg-cyan-400 w-12 h-12'>
-                                    <a href='https://github.com/Brr1-99' rel='noreferrer'>
-										<Image src={Github} alt=''/>
+                            <div className='absolute right-0 flex text-white'>
+								<div className='flex hidden md:block hover:text-cyan-500'>
+									<a href='https://twitter.com/brunurn72' rel='noreferrer' className='text-2xl'>
+										<i className='bi bi-twitter'></i>
                                     </a>
-                                </div>
+								</div>
+								<div className='flex hidden ml-10 md:block hover:text-cyan-500'>
+									<a href='https://github.com/Brr1-99' rel='noreferrer' className='text-2xl'>
+										<i className='bi bi-github'></i>
+                                    </a>
+								</div>
+								<div className='flex hidden ml-10 md:block hover:text-cyan-500'>
+									<a href='https://www.linkedin.com/in/bruno-rodríguez-novo-948270182/' rel='noreferrer' className='text-2xl'>
+										<i className='bi bi-linkedin'></i>
+                                    </a>
+								</div>
                             </div>
                         </div>
                     </div>
@@ -103,7 +108,7 @@ export default function Navbar() {
                                         className={
                                             'block px-3 py-2 rounded-md text-sm font-bold tracking-widest ' +
                                             (page.name == 'Home'
-                                                ? 'bg-lime-400 text-white hover:bg-cyan-400'
+                                                ? 'bg-lime-400 text-white hover:bg-cyan-500'
                                                 : 'hover:bg-zinc-700 text-white')
                                         }
                                         aria-current={page.current ? 'page' : undefined}

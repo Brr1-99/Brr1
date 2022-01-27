@@ -18,7 +18,7 @@ const projects = [
 		image: Hexastats,
 		url: 'hexastats-flask',
 		desc: 'App that scrapes stats from an online game.',
-		programs: ['Python']
+		programs: ['Python', 'Flask']
 	},
 	{
 		title: 'TFG',
@@ -26,7 +26,7 @@ const projects = [
 		image: Hexastats,
 		url: 'TFG',
 		desc: "Online management of the workshops' inventory of my college. ",
-		programs: ['Python', 'MariaDB']
+		programs: ['Python', 'Flask','MariaDB']
 	}
 ]
 
@@ -37,6 +37,7 @@ const colors = {
 	Tailwindcss: 'bg-fuchsia-500',
 	MariaDB: 'bg-green-500',
 	React: 'bg-cyan-500',
+	Flask: 'bg-rose-600'
 }
 
 const Grid = () => {
