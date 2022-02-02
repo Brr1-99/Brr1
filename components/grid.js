@@ -1,13 +1,15 @@
 import React from 'react'
 import Image from 'next/image'
 import Hexastats from '../images/hexastats.png'
+import Projectile from '../images/projectile.png'
+import Brr1 from '../images/Brr1.png'
 import Focus from '../images/focus.svg'
 
 const projects = [
 	{
 		title: 'Brr1',
-		date: 'January 2022',
-		image: Hexastats,
+		date: 'February 2022',
+		image: Brr1,
 		url: 'Brr1',
 		desc: 'This website you are navigating in !',
 		programs: ['JavaScript', 'React', 'Tailwindcss']
@@ -27,6 +29,14 @@ const projects = [
 		url: 'TFG',
 		desc: "Online management of the workshops' inventory of my college. ",
 		programs: ['Python', 'Flask','MariaDB']
+	},
+	{
+		title: 'Projectile Motion',
+		date: 'February 2022',
+		image: Projectile,
+		url: 'Projectile_Motion',
+		desc: "Simulation of a bullet trayectory with realistic physics using pygame ",
+		programs: ['Python']
 	}
 ]
 
