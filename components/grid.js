@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Hexastats from '../images/hexastats.png'
 import Projectile from '../images/projectile.png'
 import Brr1 from '../images/Brr1.png'
+import TFG from '../images/index.png'
 import Focus from '../images/focus.svg'
 
 const projects = [
@@ -25,7 +26,7 @@ const projects = [
 	{
 		title: 'TFG',
 		date: 'January 2022',
-		image: Hexastats,
+		image: TFG,
 		url: 'TFG',
 		desc: "Online management of the workshops' inventory of my college. ",
 		programs: ['Python', 'Flask','MariaDB']
