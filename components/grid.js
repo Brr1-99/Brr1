@@ -17,7 +17,7 @@ const projects = [
 	},
 	{
 		title: 'Hexastats',
-		date: 'November 2021',
+		date: 'February 2022',
 		image: Hexastats,
 		url: 'hexastats-flask',
 		desc: 'App that scrapes stats from an online game.',
@@ -25,7 +25,7 @@ const projects = [
 	},
 	{
 		title: 'TFG',
-		date: 'January 2022',
+		date: 'February 2022',
 		image: TFG,
 		url: 'TFG',
 		desc: "Online management of the workshops' inventory of my college. ",
