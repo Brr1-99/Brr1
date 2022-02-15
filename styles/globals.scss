@@ -28,7 +28,7 @@ body {
 	}
 	100%{
 		opacity: 1;
-		transform: translateX(27.5%);
+		transform: translateX(33%);
 	}
 }
 
@@ -39,7 +39,7 @@ body {
 @keyframes medio{
 	0%{
 		opacity: 0;
-		transform: translateX(-10%);
+		transform: translateX(-15%);
 	}
 	12% {
 		opacity: 0;
@@ -88,6 +88,47 @@ body {
 	}
 	100%{
 		opacity: 1;
-		transform: translateX(-20%);
+		transform: translateX(-33%);
 	}
 }
+
+.emoji{
+	animation: thumb 2s ease-in-out 3s both;
+}
+
+@keyframes thumb{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+		transform: rotateZ(720deg);
+	}
+}
+
+
+.image-left{
+	opacity:0;
+	--desplazamiento: -100% ;
+	animation: imagen 2.5s cubic-bezier(0, 0, 0, 1.25) 1s forwards;
+
+}
+
+.image-right{
+	opacity:0;
+	--desplazamiento: 100%;
+	animation: imagen 2.5s cubic-bezier(0, 0, 0, 1.25) 2s forwards;
+}
+
+@keyframes imagen{
+	0%{
+		opacity: 1;
+		transform: translateX(var(--desplazamiento));
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+
+

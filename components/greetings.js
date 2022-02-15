@@ -8,16 +8,18 @@ const Greet = () => {
         <div className='min-h-screen flex flex-col justify-center items-center'>
             <div className='grid md:grid-cols-3 gap-3'>
                 <div className='flex justify-start items-center px-4 md:block opacity-90'>
-                    <Image src={ImageLeft} alt='' />
+                    <Image className='image-left' src={ImageLeft} alt='' />
                 </div>
                 <div className='text-center text-white text-3xl md:text-4xl'>
                     <p className='up text-left'> Welcome all,</p>
 					<p className='middle'> to my personal website.</p>
 					<p className='down text-right'> Hope you enjoy! </p> 
-					<i className='bi bi-hand-thumbs-up'></i>
+					<div className='emoji'>
+						<i className='bi bi-hand-thumbs-up'></i>
+					</div>
                 </div>
                 <div className='flex justify-end items-center px-12 md:block opacity-90'>
-                    <Image src={ImageRight} alt='' />
+                    <Image className='image-right' src={ImageRight} alt='' />
                 </div>
             </div>
         </div>
