@@ -11,7 +11,7 @@ const Greet = () => {
                     <Image src={ImageLeft} alt='' />
                 </div>
                 <div className='text-center text-white text-3xl md:text-4xl'>
-                    <p> Welcome all,</p>
+                    <p className='up'> Welcome all,</p>
 					<p> to my personal website.</p>
 					<p> Hope you enjoy! </p> 
 					<i className='bi bi-hand-thumbs-up'></i>
