@@ -12,7 +12,7 @@ body {
 	0%{
 		opacity: 0;
 		transform-origin: left;
-		transform: rotateZ(45deg);
+		transform: rotateZ(45deg) translateX(-33%);
 	}
 	12% {
 		opacity: 0;
@@ -28,7 +28,6 @@ body {
 	}
 	100%{
 		opacity: 1;
-		transform: translateX(33%);
 	}
 }
 
@@ -72,7 +71,7 @@ body {
 	0%{
 		opacity: 0;
 		transform-origin: right;
-		transform: rotateZ(-45deg);
+		transform: rotateZ(-45deg) translateX(33%);
 	}
 	12% {
 		opacity: 0;
@@ -88,7 +87,6 @@ body {
 	}
 	100%{
 		opacity: 1;
-		transform: translateX(-33%);
 	}
 }
 
@@ -130,5 +128,10 @@ body {
 	}
 }
 
+@media screen and (max-width:600px){
+	.credit{
+		display: none;
+	}
+}
 
 
