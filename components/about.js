@@ -1,13 +1,15 @@
 import React from 'react'
 import Image from 'next/image'
-import Work from '../images/work.svg'
+import Error from '../images/error.svg'
 
 const About = () => {
 	return (
 		<div className='container mx-auto text-white mt-40'>
-            <h1 className='text-2xl text-center my-5'> About me </h1>
-			<hr className='border-0 rounded bg-cyan-500 h-1 mx-auto w-4/5'/>
+            <h1 className='text-2xl text-center my-5 text-rose-300'> About me </h1>
             <div className='grid lg:grid-cols-3 mt-5'>
+				<div className='flex justify-center items-center px-10 mx-auto opacity-90 w-4/5 md:w-full credit'>
+                    <Image src={Error} alt='' />
+                </div>
                 <div className='lg:col-span-2'>
                     <p> 
 						Hello there Internet ! I open myself to you as an 
@@ -30,9 +32,6 @@ const About = () => {
 					<p>
 						Nowadays, apart from improving the core structure of my code , studying <span className='bg-cyan-500 p-1 rounded'> JavaScript</span> is what eats most of my hours. Nevertheless, I am sure that it will be worth the try. 
 					</p>
-                </div>
-				<div className='flex justify-center items-center px-10 mx-auto opacity-90 w-4/5 md:w-full'>
-                    <Image src={Work} alt='' />
                 </div>
             </div>
         </div>
