@@ -16,14 +16,14 @@ export default function Home() {
 				<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"/>
             </Head>
             <div className='bg-zinc-900'>
-                <Navbar />
-                <Greet />
-                <Skills />
+                <Navbar/>
+                <Greet/>
+                <Skills/>
 				<section className='about' id='about'>
 				<About/>
 				</section>
 				<Contact/>
-                <Footer />
+                <Footer/>
             </div>
         </>
     )
