@@ -1,10 +1,5 @@
 import Head from 'next/head'
-import Navbar from '../components/navbar'
-import Footer from '../components/footer'
-import Greet from '../components/greetings'
-import Skills from '../components/skills'
-import About from '../components/about'
-import Contact from '../components/contact'
+import { About, Navbar, Skills, Footer, Greet, Contact } from '../components'
 
 export default function Home() {
     return (

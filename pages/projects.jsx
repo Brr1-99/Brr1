@@ -1,7 +1,5 @@
 import Head from 'next/head'
-import Navbar from '../components/navbar'
-import Footer from '../components/footer'
-import Grid from '../components/grid'
+import { Grid, Navbar, Footer } from '../components'
 
 export default function Projects() {
     return (
