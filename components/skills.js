@@ -1,6 +1,6 @@
 import Grow from '../images/grow.svg'
 import Image from 'next/image'
-import { Css, Pycharm, Python, Django, Flask, Github, Html, JS, Mysql, ReactNative, Tailwind, VsCode } from '../images/icons'
+import { Css, Pycharm, Python, Django, Flask, Github, Html, JS, Mysql, ReactNative, Tailwind, VsCode, Nodejs } from '../images/icons'
 
 const Master = [
     { icon: Python, title: 'Python' },
@@ -9,15 +9,16 @@ const Master = [
     { icon: Flask, title: 'Flask' },
     { icon: Mysql, title: 'MySQl' },
     { icon: Pycharm, title: 'PyCharm' },
+    { icon: JS, title: 'JavaScript' },
+    { icon: ReactNative, title: 'React' },
 ]
 
 const Learn = [
-    { icon: JS, title: 'JavaScript' },
-    { icon: Tailwind, title: 'TailwindCSS' },
+    { icon: Tailwind, title: 'Tailwind' },
     { icon: Django, title: 'Django' },
-    { icon: ReactNative, title: 'React' },
     { icon: Github, title: 'Github' },
     { icon: VsCode, title: 'VsCode' },
+    { icon: Nodejs, title: 'NodeJs' },
 ]
 
 const Skills = () => {
@@ -42,9 +43,9 @@ const Skills = () => {
                         <h3 className='text-xl p-3 text-center'>Settled / Mastered</h3>
                         <hr />
                         <div className='grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-4'>
-                            {Master.map((icon, idx) => (
+                            {Master.map((skill, idx) => (
                                 <div key={idx}>
-                                    <Icon icon={icon.icon} title={icon.title} />
+                                    <Icon icon={skill.icon} title={skill.title} />
                                 </div>
                             ))}
                         </div>
@@ -53,9 +54,9 @@ const Skills = () => {
                         <h3 className='text-xl p-3 text-center'>Loading . . .</h3>
                         <hr />
                         <div className='grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-4'>
-                            {Learn.map((icon, idx) => (
+                            {Learn.map((skill, idx) => (
                                 <div key={idx}>
-                                    <Icon icon={icon.icon} title={icon.title} />
+                                    <Icon icon={skill.icon} title={skill.title} />
                                 </div>
                             ))}
                         </div>

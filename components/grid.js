@@ -9,15 +9,15 @@ import Focus from '../images/focus.svg'
 const projects = [
 	{
 		title: 'Brr1',
-		date: 'February 2022',
+		date: 'April 2022',
 		image: Brr1,
 		url: 'Brr1',
 		desc: 'This website you are navigating in !',
 		programs: ['JavaScript', 'React', 'Tailwindcss']
 	},
 	{
-		title: 'Hexastats',
-		date: 'February 2022',
+		title: 'Hexastats-flask',
+		date: 'March 2022',
 		image: Hexastats,
 		url: 'hexastats-flask',
 		desc: 'App that scrapes stats from an online game.',
