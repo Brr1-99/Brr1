@@ -1,6 +1,6 @@
 import Grow from '../images/grow.svg'
 import Image from 'next/image'
-import { Css, Pycharm, Python, Django, Flask, Github, Html, JS, Mysql, ReactNative, Tailwind, VsCode, Nodejs } from '../images/icons'
+import { Css, Pycharm, Python, Django, Flask, Github, Html, JS, Mysql, ReactNative, Tailwind, VsCode, Nodejs, Streamlit } from '../images/icons'
 
 const Master = [
     { icon: Python, title: 'Python' },
@@ -8,6 +8,7 @@ const Master = [
     { icon: Css, title: 'CSS' },
     { icon: Flask, title: 'Flask' },
     { icon: Mysql, title: 'MySQl' },
+    { icon: VsCode, title: 'VsCode' },
     { icon: Pycharm, title: 'PyCharm' },
     { icon: JS, title: 'JavaScript' },
     { icon: ReactNative, title: 'React' },
@@ -17,15 +18,16 @@ const Learn = [
     { icon: Tailwind, title: 'Tailwind' },
     { icon: Django, title: 'Django' },
     { icon: Github, title: 'Github' },
-    { icon: VsCode, title: 'VsCode' },
     { icon: Nodejs, title: 'NodeJs' },
+    { icon: Streamlit, title: 'Streamlit' },
 ]
 
 const Skills = () => {
     const Icon = ({ icon, title }) => (
         <div className='p-4 flex flex-col items-center justify-center transform motion-safe:hover:scale-110'>
-            {/* <Image src={icon} alt='icon'/> */}
-            <img {...icon} className='opacity-90 w-32'></img>
+            <div className='h-16'>
+                <Image src={icon} alt='icon'/>
+            </div>
             <div>
                 <span>{title}</span>
             </div>
