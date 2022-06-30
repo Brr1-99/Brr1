@@ -13,7 +13,7 @@ const About = () => {
                 <div className='lg:col-span-2'>
                     <p> 
 						My name is Bruno Rodríguez and I am an
-						<b> electrical and industrial engineer </b>
+						<b> automation and industrial electronics engineer </b>
 						.
 					</p>
 					<br/>
