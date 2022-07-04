@@ -24,7 +24,7 @@ const Learn = [
 
 const Skills = () => {
     const Icon = ({ icon, title }) => (
-        <div className='p-4 flex flex-col items-center justify-center transform motion-safe:hover:scale-110'>
+        <div className='p-6 flex flex-col items-center justify-center transform motion-safe:hover:scale-110'>
             <div className='h-16'>
                 <Image src={icon} alt='icon'/>
             </div>
