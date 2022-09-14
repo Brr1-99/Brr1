@@ -1,6 +1,6 @@
 import Grow from '../images/grow.svg'
 import Image from 'next/image'
-import { Css, Pycharm, Python, Django, Flask, Github, Html, JS, Mysql, ReactNative, Tailwind, VsCode, Nodejs, Streamlit } from '../images/icons'
+import { Css, Pycharm, Python, Django, Flask, Github, Html, JS, Mysql, ReactNative, Tailwind, VsCode, Nodejs, Streamlit, Pandas } from '../images/icons'
 
 const Master = [
     { icon: Python, title: 'Python' },
@@ -10,8 +10,6 @@ const Master = [
     { icon: Mysql, title: 'MySQl' },
     { icon: VsCode, title: 'VsCode' },
     { icon: Pycharm, title: 'PyCharm' },
-    { icon: JS, title: 'JavaScript' },
-    { icon: ReactNative, title: 'React' },
 ]
 
 const Learn = [
@@ -20,6 +18,10 @@ const Learn = [
     { icon: Github, title: 'Github' },
     { icon: Nodejs, title: 'NodeJs' },
     { icon: Streamlit, title: 'Streamlit' },
+    { icon: JS, title: 'JavaScript' },
+    { icon: ReactNative, title: 'React' },
+    { icon: Pandas, title: 'Pandas' },
+
 ]
 
 const Skills = () => {
