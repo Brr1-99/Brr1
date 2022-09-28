@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Hexastats from '../images/hexastats.png'
-import Projectile from '../images/projectile.png'
+import Soccer from '../images/soccer.png'
 import Brr1 from '../images/Brr1.png'
 import TFG from '../images/index.png'
 import Focus from '../images/focus.svg'
@@ -32,12 +32,12 @@ const projects = [
 		programs: ['Python', 'Flask','MariaDB']
 	},
 	{
-		title: 'Projectile Motion',
-		date: 'February 2022',
-		image: Projectile,
-		url: 'Projectile_Motion',
-		desc: "Simulation of a bullet trayectory with realistic physics using pygame ",
-		programs: ['Python']
+		title: 'Soccer Stats Collector',
+		date: 'September 2022',
+		image: Soccer,
+		url: 'Sport_Events_Stats_Collector',
+		desc: "Script which makes a Streamlit app showing data from the main european football leagues",
+		programs: ['Python', 'Pandas', 'Streamlit']
 	}
 ]
 
@@ -45,9 +45,11 @@ const projects = [
 const colors = {
 	Python: 'bg-indigo-600',
 	JavaScript: 'bg-yellow-500',
+	Pandas: 'bg-yellow-500',
 	Tailwindcss: 'bg-fuchsia-500',
 	MariaDB: 'bg-green-500',
 	React: 'bg-cyan-500',
+	Streamlit: 'bg-cyan-500',
 	Flask: 'bg-rose-600'
 }
 
